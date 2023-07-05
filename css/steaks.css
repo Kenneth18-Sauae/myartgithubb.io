@@ -1,0 +1,107 @@
+header{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: center;
+    top:0;
+    left: 0;
+    right: 0;
+    box-shadow: 4px 14px 28px rgba(247, 4, 4, 0.5)
+}
+
+/*navigation bar  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent ;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(240, 17, 17);
+  }
+
+
+  /* body */
+  body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+
+} 
+.products .box-container{
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-left: 9rem;
+    margin-top: 100px;
+    }
+    
+    .products .box-container .box{
+    flex: 1 1 40rem;
+    box-shadow: 0 .5rem 1.5rem rgb(240, 17, 17);
+    border-radius: .5rem;
+    border: .1rem solid hsla(0, 67%, 56%, 0.1);
+    position: relative;
+    }
+    
+    .products .box-container .content{
+    text-align: center;
+    font-size: 2.9vh;
+    font-weight: 500;
+    background: rgb(109, 2, 2) ;
+    justify-content: center;
+    color:white;
+  
+
+    }
+    
+    
+    
+    .products .box-container .box .images{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    margin:0.5rem;
+    }
+    
+    img{
+    height: 20rem;
+    padding: 10px;
+    margin: 20px;
+    width: 170px;
+    height: 170px;
+    
+    }
+    
+    
+    
+    
+    .box-container{
+    align-content: center;
+    margin: 10px;
+    }
+
+
+    footer {
+        background-color: transparent;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+
+    
